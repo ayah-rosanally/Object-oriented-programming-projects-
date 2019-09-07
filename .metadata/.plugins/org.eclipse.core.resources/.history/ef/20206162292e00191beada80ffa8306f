@@ -1,0 +1,71 @@
+import java.util.Scanner;
+public class Etang {
+		private int NombrePoisson; 
+		private Poisson [] TabPoisson;
+
+	public Etang(int capacitemax) {
+		this.TabPoisson = new Poisson [ capacitemax];
+	}
+			
+			
+public void setTabPoisson(Poisson [] tabPoisson) {
+				TabPoisson = tabPoisson ;
+			}
+			
+	public Poisson [] getTabPoisson() {
+				return TabPoisson;
+			}
+		 
+				
+	public int getNombrePoisson() {
+		 NombrePoisson =0;
+		for(int i = 0; i< getTabPoisson().length; i++  ){
+			if (getTabPoisson()[i] != null) {
+				NombrePoisson++;
+			}
+		}
+		return NombrePoisson;
+	}
+	
+	public boolean estSature() {
+		boolean sat ;
+		int compteur=0;
+		for(int i = 0; i <= getTabPoisson().length; i++) {
+			if(getTabPoisson()[i]!=null) {
+				compteur++;
+			}
+		}
+		if (compteur == getTabPoisson().length) {
+			sat = true;
+		}
+		else {
+			sat = false;
+		}
+		return sat;
+	}
+
+	
+	public String toString() {
+		return "Etang avec " + getTabPoisson().length + " poissons.";
+	}
+	
+	public void Ajoutter(Poisson p) {
+		for (int i = 0; i <= getTabPoisson().length; i++) {
+			if (getTabPoisson()[i] == null) {
+				getTabPoisson()[i] = p;
+				break;
+			}
+		}
+	}
+
+	public void ListePoisson() {
+		for(int i = 0; i< getTabPoisson().length ; i++) {
+			if(getTabPoisson()[i] != null) {
+				System.out.println(getTabPoisson()[i].toString());	
+			}
+			
+		}
+	}
+
+	}
+

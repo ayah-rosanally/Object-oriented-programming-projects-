@@ -1,0 +1,43 @@
+import java.util.Random;
+
+public class projet1 {
+
+	public static void main(String[] args) {
+		Etang etang = new Etang (15);
+		
+		etang.Ajoutter(new Poisson (4, "Sunfish"));
+		etang.Ajoutter(new Poisson (25, "Brochet"));
+		etang.Ajoutter(new Poisson (20, "Truite"));
+		etang.Ajoutter(new Poisson (30, "Doré"));
+		etang.Ajoutter(new Poisson (4, "Sunfish"));
+		etang.Ajoutter(new Poisson (15, "Brochet"));
+		etang.Ajoutter(new Poisson (9, "Truite"));
+		etang.Ajoutter(new Poisson (12, "Doré"));
+		etang.Ajoutter(new Poisson (5, "Sunfish"));
+		etang.Ajoutter(new Poisson (12, "Sunfish"));
+		etang.ListePoisson();
+		System.out.println();
+		
+		//attraper 7 poissons aléatoirement
+		System.out.println("les poissons attrapés sont: ");
+		for(int i=0; i<7;i++) {
+			etang.AttraperPoisson();
+		}
+		System.out.println();
+		
+		//montrer ce qui reste dans l'étang
+		etang.ListePoisson();
+		System.out.println();
+		
+		//Essayer d'attraper 5 autres poissons
+		 System.out.println("Les poisson attrapés sont:");
+		 for(int i = 0; i < 5; i++){
+			 etang.AttraperPoisson();
+		 }
+		 System.out.println();
+
+		 //Montrer ce qui reste dans l'étang
+		 etang.ListePoisson();
+
+	}//fin de la méthode main
+}//fin de la classe projet1

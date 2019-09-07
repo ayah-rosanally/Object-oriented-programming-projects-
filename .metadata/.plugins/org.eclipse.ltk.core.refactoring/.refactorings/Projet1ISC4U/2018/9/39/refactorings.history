@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Encapsulate field &apos;Etang.TabPoisson&apos; in &apos;Etang&apos;&#x0D;&#x0A;- Original project: &apos;Projet1ISC4U&apos;&#x0D;&#x0A;- Original element: &apos;Etang.TabPoisson&apos;&#x0D;&#x0A;- Getter method name: &apos;getTabPoisson&apos;&#x0D;&#x0A;- Setter method name: &apos;setTabPoisson&apos;&#x0D;&#x0A;- Field visibility: &apos;public&apos;&#x0D;&#x0A;- Use getter and setter methods in declaring type" comments="false" declaring="true" description="Encapsulate field &apos;TabPoisson&apos;" flags="589830" getter="getTabPoisson" id="org.eclipse.jdt.ui.self.encapsulate" input="/src&lt;{Etang.java[Etang^TabPoisson" insertion="5" setter="setTabPoisson" stamp="1538094674035" version="1.0" visibility="1"/>
+</session>

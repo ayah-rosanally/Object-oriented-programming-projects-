@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;InterfaceGaph_ISC4U&apos;" deleteContents="false" description="Delete resource &apos;InterfaceGaph_ISC4U&apos;" element1="/InterfaceGaph_ISC4U" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1538787457947"/>&#x0A;<refactoring comment="Delete resource &apos;ISC4U_InterfaceGraph&apos;" deleteContents="false" description="Delete resource &apos;ISC4U_InterfaceGraph&apos;" element1="/ISC4U_InterfaceGraph" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1538787970252"/>
+</session>

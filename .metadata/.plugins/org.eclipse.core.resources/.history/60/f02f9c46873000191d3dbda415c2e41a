@@ -1,0 +1,30 @@
+
+public class Poisson {
+	private int taille;
+	private String espece;
+	
+	public Poisson (int taille, String espece) {
+		this.taille = taille;
+		this.espece = espece; 	
+	}//fin du constructeur Poisson
+
+	public int getTaille() {
+		return taille;
+	}//fin du getter
+
+	public void setTaille(int taille) {
+		this.taille = taille;
+	}//fin du setter
+
+	public String getEspece() {
+		return espece;
+	}//fin du getter
+
+	public void setEspece(String espece) {
+		this.espece = espece;
+	}//fin du setter
+	
+	public String tostring() {
+		return   espece  + " de " + taille + "cm";
+	}//fin de la class toString
+}//fin de la classe Poisson

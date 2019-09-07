@@ -1,0 +1,28 @@
+
+public class projet1 {
+
+	public static void main(String[] args) {
+		Etang etang = new Etang (15);
+		
+		etang.toString();
+	
+		etang.Ajoutter(new Poisson (4, "fish4"));
+		
+		etang.Ajoutter(new Poisson (5, "fish5"));
+
+		etang.Ajoutter(new Poisson (6, "fish6"));
+		
+		etang.Ajoutter(new Poisson (7, "fish7"));
+
+		etang.Ajoutter(new Poisson (8, "fish8"));
+	
+		etang.Ajoutter(new Poisson (9, "fish9"));
+		
+		etang.Ajoutter(new Poisson (10, "fish10"));
+		
+		etang.Ajoutter(new Poisson (11, "fish11"));
+		
+		etang.ListePoisson();
+
+	}//fin de la méthode main
+}//fin de la classe projet1
